@@ -16,6 +16,7 @@ CR (Conversion Rate)
 
 CPA (Cost per Approved Conversion)
 
+
 -Dynamic KPIs
 Displayed at the top of the dashboard using st.metric():
 
@@ -33,6 +34,7 @@ Formatted values (e.g., $12.45, 3.2%)
 
 A delta comparison vs overall dataset performance
 
+
 -Interactive Filters
 Users can refine the analysis using:
 
@@ -43,6 +45,7 @@ Users can refine the analysis using:
 3. Minimum impressions slider
 
 (All KPIs and charts update instantly when filters change)
+
 
 Three Visualizations
 Each visualization directly supports the main analytical question:
@@ -55,6 +58,7 @@ Ranks interest groups from most to least valuable.
 
 3. Scatter Plot: Spend vs Conversions by Demographic  
 Shows which demographics convert efficiently relative to spend.
+
 
 -Downloadable Filtered Dataset
 A built‑in download button allows users to export the filtered data as a CSV.
