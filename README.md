@@ -1,8 +1,6 @@
 An interactive Streamlit dashboard built to analyze a real-world advertising dataset and identify which demographic groups deliver the best return on ad spend.
 Using age, gender, interest category, and campaign performance metrics, this app reveals which audiences are worth targeting and which consistently underperform.
-
-
-
+_________________________________________________________________________________________________________________________________________________________________
 -Data Loading & Cleaning
 Reads the KAG_conversion_data.csv dataset using pandas
 
@@ -15,8 +13,7 @@ CTR (Click‑Through Rate)
 CR (Conversion Rate)
 
 CPA (Cost per Approved Conversion)
-
-
+_________________________________________________________________________________________________________________________________________________________________
 -Dynamic KPIs
 Displayed at the top of the dashboard using st.metric():
 
@@ -33,8 +30,7 @@ A clear, plain‑English label
 Formatted values (e.g., $12.45, 3.2%)
 
 A delta comparison vs overall dataset performance
-
-
+_________________________________________________________________________________________________________________________________________________________________
 -Interactive Filters
 Users can refine the analysis using:
 
@@ -45,8 +41,7 @@ Users can refine the analysis using:
 3. Minimum impressions slider
 
 (All KPIs and charts update instantly when filters change)
-
-
+_________________________________________________________________________________________________________________________________________________________________
 Three Visualizations
 Each visualization directly supports the main analytical question:
 
@@ -58,8 +53,7 @@ Ranks interest groups from most to least valuable.
 
 3. Scatter Plot: Spend vs Conversions by Demographic  
 Shows which demographics convert efficiently relative to spend.
-
-
+_________________________________________________________________________________________________________________________________________________________________
 -Downloadable Filtered Dataset
 A built‑in download button allows users to export the filtered data as a CSV.
 
